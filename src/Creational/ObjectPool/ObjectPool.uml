@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\App\Creational\ObjectPool\Pool</OriginalElement>
+  <nodes>
+    <node x="252.0" y="308.0">\App\Creational\ObjectPool\Worker</node>
+    <node x="0.0" y="0.0">\App\Creational\ObjectPool\Processor</node>
+    <node x="0.0" y="308.0">\App\Creational\ObjectPool\Pool</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="208.5" y="228.0" />
+  <SelectedNodes>
+    <node>\App\Creational\ObjectPool\Pool</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

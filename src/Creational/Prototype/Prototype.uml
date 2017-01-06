@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\App\Creational\Prototype\BarBookPrototype</OriginalElement>
+  <nodes>
+    <node x="165.0" y="197.0">\App\Creational\Prototype\FooBookPrototype</node>
+    <node x="0.0" y="197.0">\App\Creational\Prototype\BarBookPrototype</node>
+    <node x="67.5" y="0.0">\App\Creational\Prototype\BookPrototype</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\App\Creational\Prototype\BarBookPrototype" target="\App\Creational\Prototype\BookPrototype">
+      <point x="0.0" y="-39.0" />
+      <point x="72.5" y="172.0" />
+      <point x="111.25" y="172.0" />
+      <point x="-43.75" y="73.5" />
+    </edge>
+    <edge source="\App\Creational\Prototype\FooBookPrototype" target="\App\Creational\Prototype\BookPrototype">
+      <point x="0.0" y="-39.0" />
+      <point x="237.5" y="172.0" />
+      <point x="198.75" y="172.0" />
+      <point x="43.75" y="73.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="155.0" y="137.5" />
+  <SelectedNodes>
+    <node>\App\Creational\Prototype\BarBookPrototype</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Constants</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

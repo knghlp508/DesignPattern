@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\DesignPattern\Creational\AbstractFactory\Html\Picture</OriginalElement>
+  <nodes>
+    <node x="203.0" y="377.0">\DesignPattern\Creational\AbstractFactory\HtmlFactory</node>
+    <node x="101.5" y="250.0">\DesignPattern\Creational\AbstractFactory\AbstractFactory</node>
+    <node x="160.0" y="115.5">\DesignPattern\Creational\AbstractFactory\Text</node>
+    <node x="0.0" y="377.0">\DesignPattern\Creational\AbstractFactory\JsonFactory</node>
+    <node x="82.75" y="0.0">\DesignPattern\Creational\AbstractFactory\MediaInterface</node>
+    <node x="0.0" y="104.0">\DesignPattern\Creational\AbstractFactory\Picture</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\DesignPattern\Creational\AbstractFactory\Picture" target="\DesignPattern\Creational\AbstractFactory\MediaInterface">
+      <point x="0.0" y="-50.5" />
+      <point x="70.0" y="79.0" />
+      <point x="113.25" y="79.0" />
+      <point x="-30.5" y="27.0" />
+    </edge>
+    <edge source="\DesignPattern\Creational\AbstractFactory\JsonFactory" target="\DesignPattern\Creational\AbstractFactory\AbstractFactory">
+      <point x="0.0" y="-38.5" />
+      <point x="91.5" y="352.0" />
+      <point x="147.25" y="352.0" />
+      <point x="-45.75" y="38.5" />
+    </edge>
+    <edge source="\DesignPattern\Creational\AbstractFactory\HtmlFactory" target="\DesignPattern\Creational\AbstractFactory\AbstractFactory">
+      <point x="0.0" y="-38.5" />
+      <point x="294.5" y="352.0" />
+      <point x="238.75" y="352.0" />
+      <point x="45.75" y="38.5" />
+    </edge>
+    <edge source="\DesignPattern\Creational\AbstractFactory\Text" target="\DesignPattern\Creational\AbstractFactory\MediaInterface">
+      <point x="0.0" y="-39.0" />
+      <point x="217.5" y="79.0" />
+      <point x="174.25" y="79.0" />
+      <point x="30.5" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="193.0" y="227.0" />
+  <SelectedNodes>
+    <node>\DesignPattern\Creational\AbstractFactory\JsonFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\App\Creational\SimpleFactory\Bicycle</OriginalElement>
+  <nodes>
+    <node x="97.0" y="0.0">\App\Creational\SimpleFactory\VehicleInterface</node>
+    <node x="194.0" y="104.0">\App\Creational\SimpleFactory\Scooter</node>
+    <node x="0.0" y="104.0">\App\Creational\SimpleFactory\Bicycle</node>
+    <node x="0.0" y="203.0">\App\Creational\SimpleFactory\ConcreteFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\App\Creational\SimpleFactory\Bicycle" target="\App\Creational\SimpleFactory\VehicleInterface">
+      <point x="0.0" y="-27.0" />
+      <point x="87.0" y="79.0" />
+      <point x="140.5" y="79.0" />
+      <point x="-43.5" y="27.0" />
+    </edge>
+    <edge source="\App\Creational\SimpleFactory\Scooter" target="\App\Creational\SimpleFactory\VehicleInterface">
+      <point x="0.0" y="-27.0" />
+      <point x="281.0" y="79.0" />
+      <point x="227.5" y="79.0" />
+      <point x="43.5" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="184.0" y="152.5" />
+  <SelectedNodes>
+    <node>\App\Creational\SimpleFactory\Bicycle</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

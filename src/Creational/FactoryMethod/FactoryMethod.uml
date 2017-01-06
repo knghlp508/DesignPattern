@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\App\Creational\FactoryMethod\Bicycle</OriginalElement>
+  <nodes>
+    <node x="144.0" y="388.5">\App\Creational\FactoryMethod\Bicycle</node>
+    <node x="188.0" y="174.0">\App\Creational\FactoryMethod\ItalianFactory</node>
+    <node x="288.0" y="377.0">\App\Creational\FactoryMethod\Porsche</node>
+    <node x="0.0" y="174.0">\App\Creational\FactoryMethod\GermanFactory</node>
+    <node x="0.0" y="388.5">\App\Creational\FactoryMethod\Ferrari</node>
+    <node x="97.0" y="0.0">\App\Creational\FactoryMethod\FactoryMethod</node>
+    <node x="130.0" y="273.0">\App\Creational\FactoryMethod\VehicleInterface</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\App\Creational\FactoryMethod\ItalianFactory" target="\App\Creational\FactoryMethod\FactoryMethod">
+      <point x="0.0" y="-27.0" />
+      <point x="272.0" y="149.0" />
+      <point x="218.5" y="149.0" />
+      <point x="40.5" y="62.0" />
+    </edge>
+    <edge source="\App\Creational\FactoryMethod\GermanFactory" target="\App\Creational\FactoryMethod\FactoryMethod">
+      <point x="0.0" y="-27.0" />
+      <point x="84.0" y="149.0" />
+      <point x="137.5" y="149.0" />
+      <point x="-40.5" y="62.0" />
+    </edge>
+    <edge source="\App\Creational\FactoryMethod\Ferrari" target="\App\Creational\FactoryMethod\VehicleInterface">
+      <point x="0.0" y="-39.0" />
+      <point x="62.0" y="352.0" />
+      <point x="155.33333333333334" y="352.0" />
+      <point x="-50.66666666666666" y="27.0" />
+    </edge>
+    <edge source="\App\Creational\FactoryMethod\Porsche" target="\App\Creational\FactoryMethod\VehicleInterface">
+      <point x="0.0" y="-50.5" />
+      <point x="360.0" y="352.0" />
+      <point x="256.66666666666663" y="352.0" />
+      <point x="50.66666666666663" y="27.0" />
+    </edge>
+    <edge source="\App\Creational\FactoryMethod\Bicycle" target="\App\Creational\FactoryMethod\VehicleInterface">
+      <point x="0.0" y="-39.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="216.0" y="239.0" />
+  <SelectedNodes>
+    <node>\App\Creational\FactoryMethod\Bicycle</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Constants</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

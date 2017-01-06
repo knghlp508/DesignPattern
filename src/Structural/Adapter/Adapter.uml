@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\App\Structural\Adapter\Book</OriginalElement>
+  <nodes>
+    <node x="0.0" y="297.0">\App\Structural\Adapter\EBookInterface</node>
+    <node x="98.5" y="0.0">\App\Structural\Adapter\PaperBookInterface</node>
+    <node x="192.0" y="151.0">\App\Structural\Adapter\Book</node>
+    <node x="0.0" y="127.0">\App\Structural\Adapter\EBookAdapter</node>
+    <node x="0.0" y="424.0">\App\Structural\Adapter\Kindle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\App\Structural\Adapter\Book" target="\App\Structural\Adapter\PaperBookInterface">
+      <point x="0.0" y="-38.5" />
+      <point x="261.0" y="102.0" />
+      <point x="211.0" y="102.0" />
+      <point x="37.5" y="38.5" />
+    </edge>
+    <edge source="\App\Structural\Adapter\EBookAdapter" target="\App\Structural\Adapter\PaperBookInterface">
+      <point x="0.0" y="-62.5" />
+      <point x="86.0" y="102.0" />
+      <point x="136.0" y="102.0" />
+      <point x="-37.5" y="38.5" />
+    </edge>
+    <edge source="\App\Structural\Adapter\Kindle" target="\App\Structural\Adapter\EBookInterface">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="165.0" y="250.5" />
+  <SelectedNodes>
+    <node>\App\Structural\Adapter\Book</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

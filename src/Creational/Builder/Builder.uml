@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\App\Creational\Builder\Parts\Bike</OriginalElement>
+  <nodes>
+    <node x="178.0" y="411.0">\App\Creational\Builder\Director</node>
+    <node x="0.0" y="615.0">\App\Creational\Builder\Parts\Door</node>
+    <node x="79.0" y="539.0">\App\Creational\Builder\Parts\Car</node>
+    <node x="212.0" y="196.0">\App\Creational\Builder\BikeBuilder</node>
+    <node x="0.0" y="196.0">\App\Creational\Builder\CarBuilder</node>
+    <node x="359.0" y="411.0">\App\Creational\Builder\Parts\Engine</node>
+    <node x="477.0" y="411.0">\App\Creational\Builder\Parts\Wheel</node>
+    <node x="7.75" y="411.0">\App\Creational\Builder\Parts\Vehicle</node>
+    <node x="92.25" y="0.0">\App\Creational\Builder\BuilderInterface</node>
+    <node x="0.0" y="539.0">\App\Creational\Builder\Parts\Bike</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\App\Creational\Builder\Parts\Bike" target="\App\Creational\Builder\Parts\Vehicle">
+      <point x="0.0" y="-15.5" />
+      <point x="29.5" y="514.0" />
+      <point x="37.75" y="514.0" />
+      <point x="-30.0" y="39.0" />
+    </edge>
+    <edge source="\App\Creational\Builder\BikeBuilder" target="\App\Creational\Builder\BuilderInterface">
+      <point x="0.0" y="-85.0" />
+      <point x="311.5" y="171.0" />
+      <point x="259.5" y="171.0" />
+      <point x="55.75" y="73.0" />
+    </edge>
+    <edge source="\App\Creational\Builder\Parts\Car" target="\App\Creational\Builder\Parts\Vehicle">
+      <point x="0.0" y="-15.5" />
+      <point x="106.0" y="514.0" />
+      <point x="97.75" y="514.0" />
+      <point x="30.0" y="39.0" />
+    </edge>
+    <edge source="\App\Creational\Builder\CarBuilder" target="\App\Creational\Builder\BuilderInterface">
+      <point x="0.0" y="-85.0" />
+      <point x="96.0" y="171.0" />
+      <point x="148.0" y="171.0" />
+      <point x="-55.75" y="73.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8333333333333334" x="273.5" y="323.0" />
+  <SelectedNodes>
+    <node>\App\Creational\Builder\Parts\Bike</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

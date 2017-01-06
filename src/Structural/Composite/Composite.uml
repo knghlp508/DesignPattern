@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\App\Structural\Composite\Form</OriginalElement>
+  <nodes>
+    <node x="177.0" y="127.5">\App\Structural\Composite\TextElement</node>
+    <node x="354.0" y="104.0">\App\Structural\Composite\FormElement</node>
+    <node x="0.0" y="127.5">\App\Structural\Composite\InputElement</node>
+    <node x="177.0" y="0.0">\App\Structural\Composite\Form</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="\App\Structural\Composite\FormElement" target="\App\Structural\Composite\Form">
+      <point x="0.0" y="-50.5" />
+      <point x="437.0" y="79.0" />
+      <point x="307.83333333333337" y="79.0" />
+      <point x="52.33333333333337" y="27.0" />
+    </edge>
+    <edge source="\App\Structural\Composite\InputElement" target="\App\Structural\Composite\Form">
+      <point x="0.0" y="-27.0" />
+      <point x="78.5" y="79.0" />
+      <point x="203.16666666666666" y="79.0" />
+      <point x="-52.33333333333334" y="27.0" />
+    </edge>
+    <edge source="\App\Structural\Composite\TextElement" target="\App\Structural\Composite\Form">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="260.0" y="102.5" />
+  <SelectedNodes>
+    <node>\App\Structural\Composite\Form</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

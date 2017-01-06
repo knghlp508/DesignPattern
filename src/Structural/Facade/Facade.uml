@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>PHP</ID>
+  <OriginalElement>\App\Structural\Facade\BiosInterface</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">\App\Structural\Facade\Facade</node>
+    <node x="215.0" y="193.0">\App\Structural\Facade\OsInterface</node>
+    <node x="0.0" y="193.0">\App\Structural\Facade\BiosInterface</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="158.0" y="158.0" />
+  <SelectedNodes>
+    <node>\App\Structural\Facade\BiosInterface</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constants</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
